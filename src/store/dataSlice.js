@@ -27,9 +27,6 @@ const dataSlice = createSlice({
     sortData(state, action) {
       state.sort = action.payload;
     },
-    sortedTask(state, action) {
-      state.sortedTask = action.payload;
-    },
   },
 });
 

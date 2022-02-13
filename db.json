@@ -1,39 +1,11 @@
 {
   "tasks": [
     {
-      "title": "1",
-      "details": "1",
+      "title": "Task 1",
+      "details": "lorem ipsum",
       "completed": false,
-      "date": "Feb 13, 2022 6:03 PM",
+      "date": "Feb 13, 2022 8:13 PM",
       "id": 1
-    },
-    {
-      "title": "2",
-      "details": "2",
-      "completed": false,
-      "date": "Feb 13, 2022 6:04 PM",
-      "id": 2
-    },
-    {
-      "title": "3",
-      "details": "3",
-      "completed": false,
-      "date": "Feb 13, 2022 6:04 PM",
-      "id": 3
-    },
-    {
-      "title": "4",
-      "details": "4",
-      "completed": false,
-      "date": "Feb 13, 2022 6:05 PM",
-      "id": 4
-    },
-    {
-      "title": "why ?",
-      "details": "Bisa ?",
-      "completed": false,
-      "date": "Feb 13, 2022 6:47 PM",
-      "id": 5
     }
   ]
 }
