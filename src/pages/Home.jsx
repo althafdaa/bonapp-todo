@@ -43,7 +43,6 @@ const Home = () => {
 
   const deleteTaskHandler = (id) => {
     dispatch(deleteTask(id));
-    dispatch(getAllTasks());
   };
 
   const completeTaskHandler = (id, completed) => {

@@ -18,7 +18,7 @@ const Card = ({ data, onDelete, onComplete }) => {
               <div>
                 <h1 className='text-2xl font-bold'>{task.title}</h1>
                 <p className='text-gray-500'>{task.details}</p>
-                <p className='text-xs'>{task.date}</p>
+                <p className='text-xs'>Dibuat pada {task.date}</p>
               </div>
 
               <div className='flex gap-4 text-xl text-gray-600'>
@@ -48,7 +48,7 @@ const Card = ({ data, onDelete, onComplete }) => {
                 <div>
                   <h1 className='text-2xl font-bold'>{task.title}</h1>
                   <p className='text-gray-500'>{task.details}</p>
-                  <p className='text-xs'>{task.date}</p>
+                  <p className='text-xs'>Dibuat pada {task.date}</p>
                 </div>
 
                 <div className='flex gap-4 text-xl text-gray-600'>

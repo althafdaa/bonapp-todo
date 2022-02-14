@@ -21,7 +21,6 @@ const Add = () => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-
     dispatch(createTask(formData));
   };
 
@@ -70,7 +69,7 @@ const Add = () => {
         </div>
         <button
           type='submit'
-          className='self-end bg-green-600 text-white px-2 py-1 rounded shadow hover:bg-green-700 active:scale-105'
+          className='self-end bg-green-600 text-white px-2 py-1 rounded shadow-lg hover:bg-green-700 active:scale-105'
         >
           Add Task
         </button>

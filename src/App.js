@@ -7,7 +7,7 @@ import Home from "./pages/Home";
 function App() {
   return (
     <>
-      <div className='w-full md:w-96 mx-auto px-2 py-6'>
+      <div className='w-full md:w-96 lg:w-[600px] mx-auto px-2 py-6'>
         <BrowserRouter>
           <Navbar />
           <Routes>
