@@ -30,13 +30,7 @@ const dataSlice = createSlice({
   },
 });
 
-export const {
-  getTasks,
-  dataLoaded,
-  taskAdded,
-  getTask,
-  sortData,
-  sortedTask,
-} = dataSlice.actions;
+export const { getTasks, dataLoaded, taskAdded, getTask, sortData } =
+  dataSlice.actions;
 
 export default dataSlice.reducer;

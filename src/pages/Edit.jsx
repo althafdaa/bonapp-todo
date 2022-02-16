@@ -7,14 +7,15 @@ import { dataLoaded } from "../store/dataSlice";
 const Edit = () => {
   const params = useParams();
   const navigate = useNavigate();
+  const dispatch = useDispatch();
+  const loaded = useSelector((state) => state.data.loaded);
+  const taskById = useSelector((state) => state.data.task);
+
   const [isLoading, setIsLoading] = useState(true);
   const [formData, setFormData] = useState({
     title: "",
     details: "",
   });
-  const dispatch = useDispatch();
-  const loaded = useSelector((state) => state.data.loaded);
-  const taskById = useSelector((state) => state.data.task);
 
   const { title, details } = formData;
 
